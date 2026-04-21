@@ -22,7 +22,7 @@ BOILERPLATE_STOPS = {
 }
 
 
-def extract_keywords(weighted_text: str, top_n: int = 15) -> list[str]:
+def extract_keywords(weighted_text: str, top_n: int = 20) -> list[str]:
     """Extract top keywords using TF-IDF."""
     if not weighted_text or len(weighted_text.strip()) < 20:
         return []
