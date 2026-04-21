@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+lxml
+pandas
+tqdm
+python-dotenv
+scikit-learn
+tenacity
